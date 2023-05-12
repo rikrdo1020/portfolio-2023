@@ -25,7 +25,11 @@ import {
     threejs,
     youtubeclone,
     journalapp,
-    ecommerce
+    ecommerce,
+    freelancer,
+    tribunal,
+    lios,
+    backgroundremover
   } from "../assets";
   
   export const navLinks = [
@@ -117,7 +121,7 @@ import {
     {
       title: "FreeLancer",
       company_name: "",
-      icon: starbucks,
+      icon: freelancer,
       iconBg: "#383E56",
       date: "2015 - 2018",
       points: [
@@ -130,7 +134,7 @@ import {
     {
       title: "Electronic voting station computer technician",
       company_name: "Electoral Tribunal of Panama",
-      icon: starbucks,
+      icon: tribunal,
       iconBg: "#383E56",
       date: "January 2019 - May 2019",
       points: [
@@ -144,7 +148,7 @@ import {
     {
       title: "Web Specialist and Wordpress Dev",
       company_name: "Live and Invest Overseas",
-      icon: starbucks,
+      icon: lios,
       iconBg: "#383E56",
       date: "2020 - 2022",
       points: [
@@ -246,6 +250,27 @@ import {
       ],
       image: ecommerce,
       source_code_link: "",
+    },
+    {
+      name: "Background remover",
+      description:
+        "This application allows you to automatically remove the background of images using a third-party API. The project is designed to be easy to use, allowing users to simply drag and drop the images they want to process into the form.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "cloudinary",
+          color: "green-text-gradient",
+        },
+      ],
+      image: backgroundremover,
+      source_code_link: "https://github.com/rikrdo1020/background-remover-cloudinary",
     },
   ];
   

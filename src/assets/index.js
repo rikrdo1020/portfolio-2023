@@ -26,6 +26,10 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import freelancer from "./company/freelancer.png";
+import getcracking from "./company/getcracking.jpg";
+import lios from "./company/lios.jpg";
+import tribunal from "./company/tribunal.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -33,6 +37,7 @@ import tripguide from "./tripguide.png";
 import youtubeclone from "./youtube-clone.jpg"
 import journalapp from "./journal-app.jpg"
 import ecommerce from "./ecommerce.jpg"
+import backgroundremover from "./backgroundremover.jpg"
 
 export {
   logo,
@@ -66,5 +71,10 @@ export {
   tripguide,
   youtubeclone,
   journalapp,
-  ecommerce
+  ecommerce,
+  freelancer,
+  getcracking,
+  tribunal,
+  lios,
+  backgroundremover
 };
